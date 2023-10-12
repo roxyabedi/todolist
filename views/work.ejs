@@ -1,0 +1,30 @@
+<%- include("partials/header.ejs") %>
+
+<h1>Work List:</h1>
+
+<div class="title">
+    <h2 class="child"><%= today %></h2>
+</div>
+
+<div class="container">
+    <ul>
+        <% for (let i=0; i < workItems.length; i++) { %> 
+        <div class="item">
+            <input class ="strikethrough" type="checkbox">
+                <label for="strikeThis">
+                    <li>
+                    <%= workItems[i] %>
+                    </li>
+                </label>
+        </div>
+        <% } %>
+    </ul>
+        <form class="item" action="/work" method="post">
+            <input class="list" name ="newItem" type="text" placeholder="New Task" autocomplete="off">
+            <button class="add" name="btn" type="submit">+</button>
+    
+        </form>
+   
+</div>
+
+<%- include("partials/footer.ejs") %>

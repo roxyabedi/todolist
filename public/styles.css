@@ -1,0 +1,178 @@
+body, .navbar {
+    background: linear-gradient(271deg, #1cdbaa, #35d1ff, #c388fd);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+  
+.nav-link {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    margin: 5px;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.active {
+    color: white
+}
+
+.navbar-nav .nav-link {
+    color: white
+}
+
+.nav-link:hover {
+    color: white;
+    cursor: pointer;
+}
+  
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    color: white;
+}
+
+h2 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bolder;
+    border: solid white;
+    margin: auto;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    padding: 5px;
+    color: white;
+}
+
+.title {
+    text-align: center;   
+    }
+
+footer {
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    text-align: center;
+    height: 60px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 200;
+    width: 313px;
+    outline-width: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+input[type=checkbox]:checked + label {
+    text-decoration: line-through;
+  }
+
+.add {
+    border-radius: 50%;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    background: transparent;
+
+}
+
+.bi {
+    color: white;
+    margin: 10px;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f1f1f1;
+  font-family: 'Libre Baskerville', serif;
+  margin: 5px;
+  font-size: 20px;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+.strikethrough {
+    margin-right: 10px;
+}
+
+button {
+   
+   height: 40px;
+   width: 40px;
+}
+
+.add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-align: center;
+    background: linear-gradient(271deg, #1cdbaa, #35d1ff, #c388fd);
+    background-size: 600% 600%;
+    
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+
+}
+
